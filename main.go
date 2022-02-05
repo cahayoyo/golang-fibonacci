@@ -15,4 +15,7 @@ func main() {
 
 	fmt.Println("Using Iterative")
 	fmt.Println("Result : ", FibonacciPackage.IterativeFibonacci(number))
+
+	fmt.Println("Using Memoization")
+	fmt.Println("Result : ", FibonacciPackage.Memoization(number))
 }
